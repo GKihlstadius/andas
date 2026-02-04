@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Andas",
+    "slug": "andas",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F5F3EF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.andas.breathwork"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F5F3EF"
+      },
+      "package": "com.andas.breathwork"
+    }
+  }
+}
