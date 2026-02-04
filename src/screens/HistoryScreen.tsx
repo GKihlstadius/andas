@@ -1,6 +1,7 @@
 // ANDAS - HISTORY SCREEN
 import React, { useMemo } from 'react';
-import { View, Text, StyleSheet, ScrollView, SafeAreaView } from 'react-native';
+import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { colors, typography, spacing, radius } from '../data/constants';
 import { useUserState } from '../state/userState';
 import { useTranslation, interpolate } from '../i18n';

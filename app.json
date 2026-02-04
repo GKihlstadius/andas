@@ -9,7 +9,9 @@
     "splash": {
       "backgroundColor": "#F5F3EF"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.andas.breathwork"
@@ -19,6 +21,9 @@
         "backgroundColor": "#F5F3EF"
       },
       "package": "com.andas.breathwork"
-    }
+    },
+    "plugins": [
+      "expo-audio"
+    ]
   }
 }

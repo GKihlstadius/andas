@@ -8,9 +8,9 @@ import {
   Text,
   StyleSheet,
   ScrollView,
-  SafeAreaView,
   Dimensions,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { Svg, Rect, Text as SvgText, Line } from 'react-native-svg';
 import { colors, typography, spacing, radius } from '../data/constants';
 import { useUserState } from '../state/userState';
