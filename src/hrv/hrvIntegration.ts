@@ -241,15 +241,15 @@ interface HealthKitModule {
 
 let AppleHealthKit: HealthKitModule | null = null;
 
-// Try to load HealthKit module (only works on iOS)
-try {
-  if (Platform.OS === 'ios') {
-    AppleHealthKit = require('react-native-health').default;
-  }
-} catch (e) {
-  // HealthKit not available
-  AppleHealthKit = null;
-}
+// HealthKit integration disabled - react-native-health not installed
+// To enable: npm install react-native-health and uncomment below
+// try {
+//   if (Platform.OS === 'ios') {
+//     AppleHealthKit = require('react-native-health').default;
+//   }
+// } catch (e) {
+//   AppleHealthKit = null;
+// }
 
 const HEALTHKIT_PERMISSIONS = {
   permissions: {
